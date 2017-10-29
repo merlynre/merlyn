@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/toolbar"
+            android:background="@color/app_color">
+
+            <ImageView
+                android:layout_width="@dimen/image_width"
+                android:layout_height="@dimen/image_height"
+                android:src="@drawable/church_icons"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_white"
+                android:gravity="center"
+                android:id="@+id/toolbar_title"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_gravity="center|left"
+                android:textSize="@dimen/text_size"
+                android:text="@string/bangalore"
+                />
+
+        </android.support.v7.widget.Toolbar>
+    <Spinner
+
+        android:id="@+id/spinnerCustom"
+
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        />
+    android:background="@drawable/custom_spinner_background"
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg2"
+        android:id="@+id/listview1">
+
+    </ListView>
+</LinearLayout>
