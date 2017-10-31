@@ -40,11 +40,18 @@
         />
     android:background="@drawable/custom_spinner_background"
 
-    <ListView
+    <GridView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/bg2"
+        android:background="@color/color_white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"
         android:id="@+id/listview1">
 
-    </ListView>
+    </GridView>
 </LinearLayout>

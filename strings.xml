@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="true">SingPraises</string>
+    <string name="english" translatable="false">English</string>
+    <string name="lets_pray">Lets Pray</string>
+    <string name="bangalore">பெங்களூர்</string>
+
+    <string-array name="fi">
+        <item>தினசரி வாசிப்ப்்</item>
+        <item>புக்மார்க்ஸ்்</item>
+        <item>மணிநேர வழிபாடு</item>
+        <item>தினசரி ஜெபம்்</item>
+        <item>தினசரி பைபிள் வசனம்</item>
+        <item>தி ஆர்க் ஆஃப் மாஸ்</item>
+        <item>நாட்காட்டி</item>
+        <item>ரோசரி மற்றும் சாப்பெட்</item>
+        <item>வாக்குமூலம்</item>
+        <item>கிராஸ் ஸ்டேஷன்ஸ்</item>
+        <item>பிரார்த்தனை</item>
+    </string-array>
+    <string name="daily_reading">தினசரி படித்தல்</string>
+</resources>
